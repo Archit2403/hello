@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'docker images'
+                sh 'sudo docker images'
             }
         }
     }
